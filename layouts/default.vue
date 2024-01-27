@@ -1,6 +1,6 @@
 <template>
   <div>
     <base-header />
-    <nuxt-page />
+    <nuxt-page class="pt-14"/>
   </div>
 </template>

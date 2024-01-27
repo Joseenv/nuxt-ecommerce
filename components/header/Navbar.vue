@@ -1,30 +1,43 @@
 <script setup>
 const navLinks = [
   {
-    name: 'Home',
-    href: '/',
-  },
-  {
-    name: 'Best Sellers',
+    name: 'BEST SELLERS',
     href: '/bestsellers',
   },
   {
-    name: 'Suitcases',
+    name: 'SUITCASES',
     href: '/suitcases',
   },
+  {
+    name: 'BAGS',
+    href: '/bags',
+  },
+  {
+    name: 'ACCESSORIES',
+    href: '/accessories',
+  },
+  {
+    name: 'SALE',
+    href: '/sale',
+  }
 ]
 </script>
 
 <template>
   <nav>
-    <ul>
-      <li v-for="link in navLinks" :key="link.name">
-        <nuxt-link :to="link.href">{{ link.name }}</nuxt-link>
+    <ul class="flex gap-6">
+      <li
+        class="last:text-red-600" 
+        v-for="link in navLinks" 
+        :key="link.name"
+      >
+        <nuxt-link 
+          class="font-graphikMedium font-medium text-xs tracking-wider"
+          :to="link.href"
+        >
+          {{ link.name }}
+        </nuxt-link>
       </li>
     </ul>
   </nav>
 </template>
-
-<style scoped>
-/* Aquí puedes agregar estilos específicos para tu navbar */
-</style>
