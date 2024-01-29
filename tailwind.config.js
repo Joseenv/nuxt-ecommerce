@@ -4,10 +4,13 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        graphikLight: ['Graphik Web Light Regular', 'sans-serif'],
         graphik: ['Graphik Web Regular Regular', 'sans-serif'],
         graphikSemibold: ['Graphik Web Semibold Regular', 'sans-serif'],
         graphikMedium: ['Graphik Web Medium Regular', 'sans-serif'],
-        lyon: ['Lyon Display Web Regular Regular', 'sans-serif'],
+        lyonLight: ['LyonDisplay-Light'],
+        lyonItalic: ['LyonDisplay-LightItalic'],
+        lyon: ['Lyon Display Web Regular Regular'],
         replica: ['GT Pressura Mono Regular Regular', 'sans-serif'],
       },
     },

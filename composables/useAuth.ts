@@ -7,7 +7,6 @@ export const useAuth = () => {
     const { username, password } = data;
 
     try {
-      console.log('Se ejecuta loginUser');
       const response = await fetch(`${baseAPI}/auth/login`, {
         method: 'POST',
         headers: {
