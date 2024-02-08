@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="lg:pl-6">
     <nuxt-link 
-      class="font-graphikSemibold font-semibold text-base text-white bg-black py-1.5 px-4"
+      class="font-graphikMedium text-white bg-black py-1.5 px-4 tracking-widest"
       to="/"
     >
-      NOMADA
+      AWAY
     </nuxt-link>
   </div>
 </template>

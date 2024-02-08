@@ -1,13 +1,13 @@
 <template>
-  <div class="max-w-[1920px] my-0 mx-auto flex justify-between">
+  <div class="max-w-[1920px] my-0 mx-auto flex flex-col-reverse justify-between lg:flex-row">
     <div class="w-full flex justify-center items-center">
-      <div class="w-[624px] flex flex-col justify-between items-start">
+      <div class="w-[624px] p-12 flex flex-col justify-between items-start">
         <p class="font-replica text-sm tracking-wider">TRAVEL INSPIRATION</p>
-        <h2 class="font-lyon font-normal text-[56px] leading-none -tracking-tight py-4">Where to go in 2024</h2>
-        <p class="font-graphikLight">Dust off your bucket list—we put together an interactive guide to our
+        <h2 class="font-lyon font-normal text-4xl leading-none -tracking-tight py-4 lg:text-[56px]">Where to go in 2024</h2>
+        <p class="font-graphikLight text-sm lg:text-base">Dust off your bucket list—we put together an interactive guide to our
           most-anticipated travel destinations of 2024.</p>
         <div class="group flex gap-3 items-center mt-8">
-          <a class="font-graphikMedium tracking-wider" href="">GET THE SCOOP</a>
+          <a class="font-graphikMedium text-sm tracking-wider lg:text-base" href="">GET THE SCOOP</a>
           <icon-arrow />
         </div>
       </div>

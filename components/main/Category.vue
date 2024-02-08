@@ -1,7 +1,7 @@
 <template>
   <div class="w-full">
-    <section class="max-w-[1920px] my-12 mx-auto flex justify-between px-12 gap-12">
-      <category-slide>
+    <section class="max-w-[1920px] mx-auto my-10 px-6 flex flex-col justify-between gap-12 lg:px-12 lg:my-12 lg:flex-row">
+      <category-slide class="order-2 lg:order-1">
         <template #image>
           <div class="overflow-hidden">
             <img class="w-full object-cover group-hover:scale-[1.2] duration-500 ease-in-out"
@@ -17,18 +17,18 @@
           </div>
         </template>
         <template #description>
-          <p class="font-graphik text-[#111111]">
+          <p class="font-graphik text-[#111111] text-sm lg:text-base">
             Carry-on, checked, Classic, Aluminum. Shop our best-selling suitcases in different sizes, styles, and colors.
           </p>
         </template>
       </category-slide>
 
-      <category-slide>
+      <category-slide class="order-1 lg:order-2">
         <template #title>
           <h2 class="text-center pb-8">
-            <span class="font-lyonItalic italic text-[24px]">Shop by</span>
+            <span class="font-lyonItalic italic text-[20px] xl:text-[24px]">Shop by</span>
             <br>
-            <span class="font-graphik text-[56px]">CATEGORY</span>
+            <span class="font-graphik text-[48px] xl:text-[56px]">CATEGORY</span>
           </h2>
         </template>
         <template #image>
@@ -46,13 +46,13 @@
           </div>
         </template>
         <template #description>
-          <p class="font-graphik text-[#111111]">
+          <p class="font-graphik text-[#111111] text-sm lg:text-base">
             Quick trips, long weekend getaways, and everything in between. Our bags are designed to do it all.
           </p>
         </template>
       </category-slide>
 
-      <category-slide>
+      <category-slide class="order-last">
         <template #image>
           <div class="overflow-hidden">
             <img class="w-full object-cover group-hover:scale-[1.2] duration-500 ease-in-out"
@@ -68,7 +68,7 @@
           </div>
         </template>
         <template #description>
-          <p class="font-graphik text-[#111111]">
+          <p class="font-graphik text-[#111111] text-sm lg:text-base">
             Make packing a breeze. Keep your essentials organized on the go with our travel accessories and organizers.
           </p>
         </template>

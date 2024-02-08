@@ -15,7 +15,7 @@ const props = defineProps<Props>()
       :srcset="props.imageResponsive"
       decoding="async" data-nimg="responsive" sizes="(min-width: 1024px) 284px, 50vw">
     <div class="flex gap-3 items-center">
-      <p class="font-graphikMedium tracking-wider">{{ props.action }}</p>
+      <span class="font-graphikMedium text-sm tracking-wider lg:text-base">{{ props.action }}</span>
       <icon-arrow />
     </div>
   </article>

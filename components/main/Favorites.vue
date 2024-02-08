@@ -45,13 +45,13 @@ const itemsList: Item[] = [
 </script>
 
 <template>
-  <section class="max-w-[1920px] my-0 mx-auto px-12 pb-14">
+  <section class="max-w-[1920px] my-0 mx-auto pb-14 lg:px-12">
     <h2 class="text-center py-10">
-      <span class="font-lyonItalic italic text-[24px]">A few of our</span>
+      <span class="font-lyonItalic italic text-[20px] xl:text-2xl">A few of our</span>
       <br>
-      <span class="font-graphik text-[56px]">FAVORITES</span>
+      <span class="font-graphik text-[48px] xl:text-[56px]">FAVORITES</span>
     </h2>
-    <div class="w-full grid grid-cols-4 justify-stretch">
+    <div class="w-full grid grid-cols-2 justify-stretch grid-rows-auto lg:grid-cols-4">
       <favorite-item
         v-for="{imageBase, imageResponsive, sizes, description, name, price} in itemsList"
         :key="name"

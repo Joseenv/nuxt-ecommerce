@@ -24,7 +24,7 @@ const navLinks = [
 </script>
 
 <template>
-  <nav>
+  <nav class="hidden lg:block">
     <ul class="flex gap-6">
       <li
         class="last:text-red-600" 
