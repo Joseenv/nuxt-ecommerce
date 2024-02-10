@@ -1,4 +1,4 @@
-import { ref, onMounted, onUnmounted } from 'vue';
+import { onMounted, onUnmounted } from 'vue';
 
 export const useScroll = () => {
   let headerElement: HTMLElement | null = null;
